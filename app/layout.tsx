@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./theme-provider";
-import { Loader } from "@/components";
+import { Loader } from "@/components/loader";
 import { Suspense } from "react";
 import { Analytics } from "@vercel/analytics/react";
 
