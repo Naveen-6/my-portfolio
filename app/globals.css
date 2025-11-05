@@ -108,3 +108,20 @@ section {
   position: relative;
   z-index: 0; /* ensure all sections are below navbar */
 }
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  word-wrap: break-word;
+}
