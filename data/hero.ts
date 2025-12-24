@@ -4,21 +4,21 @@ import { PersonalInfo,SocialLink } from "@/lib/types";
 
 export const heroData: PersonalInfo = {
   name: "Naveen Sai Alapati",
-  resume: "/Naveen Sai_SDE_ Resume.pdf", // path to resume in public folder
+  resume: "/Naveen-Software Engineer-RESUME.pdf", // path to resume in public folder
   profileImage: "/profile.webp", // path to image in public folder
   setupImage: "/setup.webp", // path to setup image
   moreInfo: `
-Hi, I’m Naveen Sai — a full-stack software engineer passionate about building scalable, reliable systems that make real-world impact.
+Hi, I’m Naveen Sai — a full-stack software engineer focused on building scalable, secure, and high-performance systems used in real-world production environments.
 
-My journey started during my Bachelor’s in Computer Science, where I was fascinated by how code could automate everyday work. I began building small web apps, which led me to join Dell Technologies while still in college — modernizing legacy portals used by thousands of users.
+My journey began during my Bachelor’s in Computer Science, where I discovered how thoughtfully designed software can automate complex workflows and eliminate manual effort. That curiosity led me to Dell Technologies, where I worked on modernizing enterprise systems and supporting mission-critical internal platforms.
 
-Later, at Uber, I worked on ride optimization systems using Node.js, React, and microservices — learning how global-scale systems are built. At JPMorgan Chase, I helped automate artifact ownership processes across 12 enterprise applications using Java, Spring Boot, Kafka, and AWS — making complex workflows simpler and auditable.
+Since then, I’ve had the opportunity to work at Uber and JPMorgan Chase & Co., contributing to distributed systems that operate at scale — from ride-matching and real-time event pipelines to banking and compliance workflows processing millions of transactions daily.
 
-Alongside my professional work, I’ve built AI-powered platforms, including a mock interview platform, image generation, and emotion detection, applying machine learning models to real-world problems.
+Alongside my professional work, I actively build AI-powered platforms, applying modern LLMs and cloud-native architectures to solve practical problems.
 
-I’m driven by the belief that great software isn’t just about code — it’s about creating intelligent systems that make people’s work faster, simpler, and more secure.
+I believe great software isn’t just about writing code — it’s about designing systems that are fast, reliable, secure, and easy for people to trust.
 
-Tech I love: Java, Python, JavaScript, TypeScript, Spring Boot, Node.js, React, AWS, MongoDB, SQL, Kafka, Docker, Kubernetes, AI/ML
+Tech I love: Java, Python, JavaScript, TypeScript, Spring Boot, Node.js, React, Angular, AWS, MongoDB, SQL, Kafka, Docker, Kubernetes, AI/ML
 
 Next: I’m eager to join an innovative engineering team where I can design scalable architectures, contribute across the full stack, and leverage AI to solve complex, real-world challenges that impact millions.
   `.trim(),

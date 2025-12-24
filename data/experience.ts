@@ -15,11 +15,13 @@ export const data: {
         startDate: "2021-09",
         endDate: "2023-08",
         jobDescription: `
-       At Dell Technologies, I contributed to modernizing legacy customer and internal portals used by 30 K + users monthly.
-I rebuilt front-end modules with React + TypeScript + Material UI, unifying the design across five platforms and improving load time by 2.5 seconds through SQL query tuning and API optimization.
-I developed over 20 Spring Boot REST APIs backed by SQL Server, integrated Node.js middleware, and containerized deployments using Azure DevOps, Docker, and Kubernetes — reducing manual setup time per sprint.
-Additionally, I diagnosed production issues using Dynatrace and Splunk, cutting recurring incidents by 40%.
-This experience taught me how to build reliable, high-performance systems at enterprise scale.`,
+      At Dell Technologies, I helped modernize enterprise internal platforms used by support and operations teams.
+
+I built Java Spring Boot microservices and React-based dashboards to replace legacy workflows, improving reliability and reducing manual effort. I also worked on event-driven architectures using Kafka and containerized deployments using Kubernetes and AWS.
+
+This role gave me strong exposure to enterprise-scale systems, cross-team collaboration, and production support.
+
+Key contributions . Delivered 9 Spring Boot REST APIs serving ~7–9K internal requests per day. Built React dashboards adopted by ~40 internal users, reducing manual tracking during support triage. Designed Kafka consumers and producers processing ~300K events daily. Implemented OAuth 2.0 and RBAC across backend services to support security and compliance reviews`,
       },
       {
         companyName: "Uber",
@@ -28,10 +30,14 @@ This experience taught me how to build reliable, high-performance systems at ent
         startDate: "2024-09",
         endDate: "2025-01",
         jobDescription: `
-        At Uber, I helped scale the ride-matching and surge-pricing systems that process over a million daily API requests across major cities.
-Using Node.js, React, and microservices, I developed services to optimize driver-rider pairing and integrated Deep ETA ML models to improve time-to-pickup accuracy. I built a React-based admin console to monitor demand surges and trigger pricing overrides in real time.
-Our services ran in Docker containers on Kubernetes, supported by automated CI/CD pipelines.
-This work improved ride allocation efficiency, enhanced pricing accuracy, and made the system more resilient during high-demand spikes.
+        At Uber, I worked on distributed systems that power ride-matching and trip lifecycle management, operating under strict latency and availability requirements.
+
+I developed Spring Boot microservices that handle trip state transitions and high-frequency API traffic. To support real-time features like driver location updates and pricing, I implemented Kafka-based event streaming consumed by downstream ETA and analytics services.
+
+I also built React UI components used in high-traffic user flows and helped automate Kubernetes deployments on AWS using CI/CD pipelines.
+
+Key contributions. Developed backend services handling ~180K daily API calls with ~150 ms response times. Processed ~900K Kafka messages per day for near-real-time trip and location updates. Reduced UI page load delays by ~400 ms through React performance improvements
+. Enabled zero-downtime deployments through automated CI/CD and Kubernetes orchestration
 
         `,
       },
@@ -40,9 +46,13 @@ This work improved ride allocation efficiency, enhanced pricing accuracy, and ma
         companyLogo: "/jpmc.png",
         position: "Software Engineer",
         startDate: "2025-02",
-        jobDescription: `At J.P.Morgan Chase, I engineered Java-based Spring Boot microservices to streamline artifact ownership and compliance across 12 enterprise applications. I integrated Apache Kafka for asynchronous workflows, eliminating manual ownership updates per release and improving traceability for audit teams.
-I also implemented secure REST APIs with JWT + Spring Security, enabling data sharing across governance platforms and reducing deployment time from days to hours through Jenkins CI/CD. On the UI side, I built React + TypeScript components using Salt-DS to standardize dashboards and added automated testing with Jest to prevent regressions.
-This project strengthened system reliability, cut manual dependencies, and made compliance workflows fully auditable.`,
+        jobDescription: `At JPMorgan Chase, I work on backend and full-stack systems that support regulated banking and payment workflows, where performance, security, and auditability are critical.
+
+I design Java Spring Boot microservices that process high-volume financial transactions and integrate with multiple core banking platforms. I also build event-driven pipelines using Apache Kafka to enable reliable, real-time data flow across distributed systems.
+
+On the frontend, I contribute to React-based operational dashboards that help internal teams monitor and manage workflows efficiently. Security is a core focus of my work — I implement OAuth 2.0 and RBAC to ensure compliance with PCI-DSS and internal governance standards.
+
+Key contributions. Built high-throughput backend services processing ~1.2M transactions per day, reducing critical processing latency by ~18%. Integrated 15+ enterprise systems through secure REST APIs, improving response times and reliability. Designed Kafka-based event pipelines handling ~250K messages/hour with >99.9% delivery reliability. Improved internal reporting efficiency by ~20% through React dashboards and API optimization`,
       },
     ],
 
